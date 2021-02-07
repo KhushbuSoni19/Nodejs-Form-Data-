@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Main InfoTech form 79</title>
+
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <script src="/javascripts/popper.min.js"></script>
+    <script src="/javascripts/jquery.min.js"></script>
+    <script src="/javascripts/file.js"></script>
+    <script src="/javascripts/data.js"></script>
+
+</head>
+<style>
+    body {
+        background-color: rgb(254, 156, 4);
+    }
+
+    *[role="form"] {
+        max-width: 1100px;
+        padding: 15px;
+        margin: 0 auto;
+        background-color: unset;
+        border-radius: 0.6em;
+    }
+
+    *[role="form"] h2 {
+        align-items: center;
+        font-size: 35px;
+        color: navy;
+    }
+
+    input {
+        padding: 15px;
+        display: inline-block;
+        border: maroon;
+        background: #f1f1f1;
+        width: 100%;
+
+    }
+
+    label {
+        writing-mode: horizontal-tb;
+        font-size: 15px;
+        font-weight: bolder;
+        height: 35px;
+        max-width: 500px;
+    }
+
+    button {
+        max-width: 80px;
+        text-align: left;
+        align-items: center;
+
+    }
+</style>
+
+<body style="background-color:rgb(254, 156, 4);">
+
+    <div class="container">
+        <div class="card">
+            <form class="form-horizontal" role="form" action="/" method="POST" id="contact_form">
+
+                <img style="border: black;" class="card-img-top " src="/images/p1.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <h2 style=" color:navy;"><b>Main InfoTech form 79</b></h2>
+                    <div class="form-group">
+                        <label for="ID" class="col-sm-4 control-label">ID</label>
+                        <div class="col-sm-10">
+                            <div class="form-row mb-4">
+                                <input id='cId' type="text" placeholder="ID" name="ID" onfocus="this.value=''"
+                                    class="form-control" autofocus>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Com_Name" class="form-group">
+                        <label for="company name" class="col-sm-4 control-label">Company Name</label>
+                        <div class="input-group mb-4 mr-sm-4">
+                            <div class="col-sm-10">
+                                <div class="form-row mb-4">
+                                    <input id="company-name-0" style="max-width: 200px;" type="text" name="Company_Name"
+                                        placeholder="Company Name" onfocus="this.value=''" class="form-control cn">
+                                    </div>
+                                    <div>
+                                        <button style="margin-left :0px;"
+                                        class="add_button7 btn btn-info active">Add+</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                        </div>
+                        <div>
+                            <span class="element_position7"></span>
+                        </div>
+                        <h3 style="font-size: 25px;">Company Address</h3>
+                        <div id="company_address" class="input-group mb-4 mr-sm-4">
+                            <div class="form-group">
+                                <div class="col-sm-10">
+                                    <div class="form-row mb-4">
+                                        <input style="max-width: 500px;" type="text" name="Plot_Office_Hall_No"
+                                            placeholder="No.(Plot/Office/Hall) " onfocus="this.value=''"
+                                            class="form-control ca">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-10">
+                                    <div class="form-row mb-4">
+                                        <input type="text" name="Floor_no" placeholder="Floor No."
+                                            onfocus="this.value=''" class="form-control ca">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-10">
+                                    <div class="form-row mb-4">
+                                        <input style="max-width: 500px;" type="text" name="Building_Name_No"
+                                            placeholder="Building Name/No." onfocus="this.value=''"
+                                            class="form-control ca">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-10">
+                                    <div class="form-row mb-4">
+                                        <input type="text" name="road_name_no" placeholder="Road Name / No."
+                                            onfocus="this.value=''" class="form-control ca">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-sm-10">
+                                    <div class="form-row mb-4">
+                                        <input type="text" name="Sector_Area_Colony" placeholder="Sector/Area/Colony"
+                                            onfocus="this.value=''" class="form-control ca">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-sm-10">
+                                    <div class="form-row mb-4">
+                                        <input type="text" name="Landmark" placeholder="Landmark"
+                                            onfocus="this.value=''" class="form-control ca">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-10">
+                                    <div class="form-row mb-4">
+                                        <input type="text" name="City" placeholder="City" onfocus="this.value=''"
+                                            class="form-control ca">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-10">
+                                    <div class="form-row mb-4">
+                                        <input type="text" name="Country" placeholder="Country" onfocus="this.value=''"
+                                            class="form-control ca">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-10">
+                                    <div class="form-row mb-4">
+                                        <input type="text" name="PIN_Code_Area" placeholder="PIN/Area Code"
+                                            onfocus="this.value=''" class="form-control ca">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="Work Domain" class="col-sm-4 control-label">Work Domain</label>
+                            <div class="col-sm-10">
+                                <div class="form-row mb-4">
+                                    <div class="input-group mb-3 mr-sm-3">
+                                        <select style="max-width: 300px;" name="work_domain" id="work-domain-0"
+                                            onchange="check(this.value);" class="form-control wd">
+                                            <option value="">Select</option>
+                                            <option value="HR">HR</option>
+                                            <option value="IT">IT</option>
+                                            <option value="Finance">Finance</option>
+                                            <option value="Transport">Transport</option>
+                                            <option value="Bank">Bank</option>
+                                            <option value="School/College/University">School/College/University</option>
+                                            <option value="Auto Mobile Industry">Auto Mobile Industry</option>
+                                            <option value="Automation Industry">Automation Industry</option>
+                                            <option value="Hospital">Hospital</option>
+                                            <option value="Pharma Industrial Company">Pharma Industrial Company</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                        <input style="margin-left: 100px ;max-width: 205px; height: 40px; " type="text"
+                                            id="work_domain" name="work_domain" placeholder="Work Domain"
+                                            style='display:none;' onfocus="this.value=''">
+                                        <button style="margin-left: 100px;"
+                                            class="add_button3 btn btn-info active">Add+</button>
+                                    </div>
+                                    <br>
+                                    <div>
+                                        <span class="element_position3"></span>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="form-group">
+                                    <label for="Work Domain" class="col-sm-4  control-label">Company Type</label>
+                                    <div class="col-sm-10">
+                                        <div class="form-row mb-4">
+                                            <div class="input-group mb-3 mr-sm-3">
+                                                <select id='company-type' name="Company_Type" class="form-control"
+                                                    onchange="check1(this.value);">
+                                                    <option value="">Select your Company Type</option>
+                                                    <option>Start-Up</option>
+                                                    <option>Partnership Farm</option>
+                                                    <option>Private Limited</option>
+                                                    <option>Limited</option>
+                                                    <option>Public Limited</option>
+                                                    <option>International</option>
+                                                    <option>Other</option>
+                                                </select>
+                                                <input style=" margin-left: 100px;max-width: 205px; height: 40px; "
+                                                    type="text" id="Company_Type" name="Company_Type"
+                                                    placeholder="Company Type" style='display:none;'
+                                                    onfocus="this.value=''">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="Work Domain" class="col-sm-4  control-label">Company Status</label>
+                                    <div class="col-sm-10">
+                                        <div class="form-row mb-4">
+                                            <div class="input-group mb-3 mr-sm-3">
+                                                <select id='company-status' name="Company_status" class="form-control"
+                                                    onchange="check2(this.value);">
+                                                    <option value="">Select your Company Status</option>
+                                                    <option>Top Fastest Growing</option>
+                                                    <option>Growing</option>
+                                                    <option>Balanced</option>
+                                                    <option>Going in Loss</option>
+                                                    <option>Other</option>
+                                                </select>
+                                                <input style=" margin-left: 100px;max-width: 205px; height: 40px;"
+                                                    type="text" id="Company_status" name="Company_status"
+                                                    placeholder="Company Status" style='display:none;'
+                                                    onfocus="this.value=''">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <h3 style="font-size: 25px;">Company No.</h3>
+                                </legend><br>
+                                <div class="input-group mb-3 mr-sm-3 cNo">
+                                    <div class="form-group">
+                                        <label style="max-width: 500px;" class="col-sm-4 control-label">CIN No.</label>
+                                        <div class="col-sm-10">
+                                            <div class="form-row mb-4">
+                                                <input id="company-num-0" type="text" name="CIN_No"
+                                                    placeholder="CIN No." onfocus="this.value=''"
+                                                    class="form-control cNum-0" autofocus>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label style="max-width: 500px;" class="col-sm-4 control-label">PAN No.</label>
+                                        <div class="col-sm-10">
+                                            <div class="form-row mb-4">
+                                                <input type="text" name="PAN_No" placeholder="PAN No."
+                                                    onfocus="this.value=''" class="form-control cNum-0" autofocus>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label style="max-width: 500px;" class="col-sm-4 control-label">GSTIN
+                                            No.</label>
+                                        <div class="col-sm-10">
+                                            <div class="form-row mb-4">
+                                                <input type="text" name="GSTIN_No" placeholder="GSTIN No."
+                                                    onfocus="this.value=''" class="form-control cNum-0" autofocus>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label style="max-width: 500px;" class="col-sm-4 control-label">TIN No.</label>
+                                        <div class="col-sm-10">
+                                            <div class="form-row mb-4">
+                                                <input type="text" placeholder="TIN No." name="TIN_No"
+                                                    onfocus="this.value=''" class="form-control cNum-0" autofocus>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label style="max-width: 500px;" class="col-sm-4 control-label">IOS No.</label>
+                                        <div class="col-sm-10">
+                                            <div class="form-row mb-4">
+                                                <input type="text" name="IOS_No" placeholder="IOS No."
+                                                    onfocus="this.value=''" class="form-control cNum-0" autofocus>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <button style="margin :45px;"
+                                            class="add_button6 btn btn-info active">Add+</button>
+                                    </div>
+                                </div>
+                                <br>
+                                <div>
+                                    <span class="element_position6"></span>
+                                </div>
+
+
+                                <h3 style="font-size: 25px; font-weight: bold;">Company Contact</h3>
+
+                                <h5>Office Contact No.</h5>
+                                <div class="input-group mb-5 mr-sm-5 oc">
+                                    <div class="form-group">
+                                        <div class="col-sm-10">
+                                            <div class="form-row mb-4">
+                                                <input type="text" name="Company_Contact" placeholder="Contact No."
+                                                    onfocus="this.value=''" class="form-control oinfo-0" autofocus>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-10">
+                                            <div class="form-row mb-4">
+                                                <input type="text" name="Landline" placeholder="Landline No."
+                                                    onfocus="this.value=''" class="form-control oinfo-0" autofocus>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-10">
+                                            <div class="form-row mb-4">
+                                                <input type="email" name="personal_Email" placeholder="personal Email "
+                                                    onfocus="this.value=''" class="form-control oinfo-0" autofocus>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-10">
+                                            <div class="form-row mb-4">
+                                                <input type="textarea" name="official_email"
+                                                    placeholder="Official Email" onfocus="this.value=''"
+                                                    class="form-control oinfo-0" autofocus>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <button style="height: 40px; margin-left:0px"
+                                        class="add_button btn btn-info active">Add+</button>
+                                </div>
+                                <br>
+                                <div>
+                                    <span class="element_position"></span>
+                                </div>
+                                <h4>Person</h4>
+                                <div class="input-group mb-3 mr-sm-3 pc">
+                                    <div class="form-group">
+                                        <div class="col-sm-10">
+                                            <div class="form-row mb-4">
+                                                <input type="text" name="PName" placeholder="Name"
+                                                    onfocus="this.value=''" class="form-control pinfo-0" autofocus>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-10">
+                                            <div class="form-row mb-4">
+                                                <input type="text" name="Post_designation"
+                                                    placeholder="Post/Designation" onfocus="this.value=''"
+                                                    class="form-control pinfo-0" autofocus>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="col-sm-10">
+                                            <div class="form-row mb-4">
+                                                <input type="text" name="Person_Contact" placeholder=" Contact No."
+                                                    onfocus="this.value=''" class="form-control pinfo-0" autofocus>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="col-sm-10">
+                                            <div class="form-row mb-4">
+                                                <input type="text" name="Other_Contact" placeholder=" Other No."
+                                                    onfocus="this.value=''" class="form-control pinfo-0" autofocus>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="col-sm-10">
+                                            <div class="form-row mb-4">
+                                                <input type="text" name="Personal_Email" placeholder="Personal Email"
+                                                    onfocus="this.value=''" class="form-control pinfo-0" autofocus>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-10">
+                                            <div class="form-row mb-4">
+                                                <input type="textarea" name="official_email"
+                                                    placeholder="Official Email" onfocus="this.value=''"
+                                                    class="form-control pinfo-0" autofocus>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <button class="add_button4 btn btn-info active">Add+</button></div>
+                                </div>
+                                <div>
+                                    <span class="element_position4"></span>
+
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group mb-2 mr-sm-2 ">
+                                        <label for="ID" class="col-sm-4 control-label">Company Website</label>
+                                        <div class="col-sm-10">
+                                            <div class="form-row mb-4">
+                                                <input style="max-width: 400px;" type="text"
+                                                    placeholder="Company Website" name="Company_Website"
+                                                    onfocus="this.value=''" class="form-control ws" autofocus>
+                                                <button style="margin-top: 5px; margin-left:40px"
+                                                    class="add_button2 btn btn-info active">Add+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="element_position2"></span>
+                                    </div>
+
+                                </div>
+                                <br>
+                                <div class="form-group">
+                                    <div class="input-group mb-2 mr-sm-2">
+                                        <label for="ID" class="col-sm-4 control-label">Company Social Links</label>
+                                        <div class="col-sm-10">
+                                            <div class="form-row mb-4">
+                                                <input style="max-width: 400px;" type="text"
+                                                    placeholder="Company Social Links" name="Company_Social_Links"
+                                                    onfocus="this.value=''" class="form-control sl" autofocus>
+                                                <div>
+                                                    <button style="margin-top: 5px; margin-left: 40px;"
+                                                        class="add_button1 btn btn-info active">Add+</button>
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <div>
+                                                <span class="element_position1"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group mb-4 mr-sm-4">
+                                            <label style="max-width: 500px;" class="col-sm-4 control-label">Company
+                                                Turnover</label>
+                                            <div class="col-sm-10">
+                                                <div class="form-row mb-4 to">
+                                                    <select  style="margin-top: 10px; margin-left: 8px; max-width: 205px;" name="Turnover_year"
+                                                        class="form-control ct-0">
+                                                        <option value="">Select Year</option>
+                                                        <option>2000</option>
+                                                        <option>2001</option>
+                                                        <option>2002</option>
+                                                        <option>2003</option>
+                                                        <option>2004</option>
+                                                        <option>2005</option>
+                                                        <option>2006</option>
+                                                        <option>2007</option>
+                                                        <option>2008</option>
+                                                        <option>2009</option>
+                                                        <option>2010</option>
+                                                        <option>2011</option>
+                                                        <option>2012</option>
+                                                        <option>2013</option>
+                                                        <option>2014</option>
+                                                        <option>2015</option>
+                                                        <option>2016</option>
+                                                        <option>2017</option>
+                                                        <option>2018</option>
+                                                        <option>2019</option>
+                                                        <option>2020</option>
+                                                        <option>2021</option>
+                                                        <option>2022</option>
+                                                        <option>2023</option>
+                                                        <option>2024</option>
+                                                        <option>2025</option>
+                                                    </select>
+                                                    <input style="margin-top: 10px; margin-left: 8px; max-width: 205px;" type="text"
+                                                        placeholder="Company Turnover" onfocus="this.value=''"
+                                                        class="form-control ct-0" autofocus>
+                                                    <input style="margin-top: 10px; margin-left: 10px; max-width: 205px;" type="text"
+                                                        placeholder="currency" onfocus="this.value=''"
+                                                        class="form-control ct-0" name="currency" autofocus>
+
+                                                    <button style=" margin-top: 10px; margin-left: 40px;"
+                                                        class="add_button5 btn btn-info active">Add+</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div>
+                                        <span class="element_position5"></span>
+                                    </div>
+
+                                    <div class="input-group mb-2 mr-sm-2">
+                                        <div class="form-group">
+                                            <label style="max-width: 500px;" class="col-sm-4 control-label">Company
+                                                Employee
+                                                Size</label>
+                                            <div class="col-sm-10">
+                                                <div class="form-row mb-4">
+                                                    <input id="eSize" type="text" name="Company_Employee_size"
+                                                        placeholder="Company Employee Size" onfocus="this.value=''"
+                                                        class="form-control" autofocus>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label style="max-width: 500px;" class="col-sm-4 control-label">Company
+                                                Starting
+                                                Date</label>
+                                            <div class="col-sm-10">
+                                                <div class="form-row mb-4">
+                                                    <input id="sDate" type="date" name="Company_starting_date"
+                                                        placeholder="date" onfocus="this.value=''" class="form-control"
+                                                        autofocus>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-10">
+                                            <div class="form-row mb-4">
+                                                <button style="max-width: 200px;" id='done' type='button'
+                                                    class="btn btn-info active">Submit</button>
+                                                <!-- <input style="max-width: 200px;" id="submit" class="btn btn-info active"
+                                            type="submit" value="Submit"> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            </form>
+        </div>
+</body>
+
+</html>

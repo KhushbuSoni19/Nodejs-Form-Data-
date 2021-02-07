@@ -1,0 +1,38 @@
+body
+{
+    background-color:rgb(254, 156, 4);
+}
+*[role="form"] {
+    max-width: 1100px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color:unset;
+    border-radius: 0.6em;
+}
+
+*[role="form"] h2 {
+    align-items: center;
+    font-size: 35px;
+    color:navy;
+}
+input {
+  padding: 15px;
+  display: inline-block;
+  border:maroon;
+  background: #f1f1f1;
+  width: 100%;
+
+}
+label{
+    writing-mode: horizontal-tb;
+    font-size:15px;
+    font-weight:bolder;
+    height: 35px;
+    max-width: 500px;
+}
+button{
+    max-width: 80px;
+    text-align: left;
+    align-items: center;
+
+}
